@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/stet_logo">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv__personal_info_form_activity__title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/global__stet_title"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/personal_info_form_activity__pb"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/global__personal_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="@string/global__personal_info"
+                android:textSize="25sp"
+                android:textColor="#555555"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__cand_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/personal_info_form_activity__tv__cand_name"
+                android:textColor="#777777"
+                android:textSize="17sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__cand_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__fname"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/personal_info_form_activity__et__cand_fname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/box"
+                android:hint="@string/global__fname"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__cand_mname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__mname"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/personal_info_form_activity__et__cand_mname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/box"
+                android:hint="@string/global__mname"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/global__lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__lname" />
+
+            <EditText
+                android:id="@+id/personal_info_form_activity__et__cand_lname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/box"
+                android:hint="@string/global__lname"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/global__gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__gender"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/personal_info_form_activity__rd__male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/global__male"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/personal_info_form_activity__rd__female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/global__female"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/personal_info_form_activity__rb__other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/personal_info_form_activity__rb__others"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__fath_hus_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="@string/global__father_name"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__fath_fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__fname"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/personal_info_form_activity__et__fath_fname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/box"
+                android:hint="@string/global__fname"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__fath_mname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__mname"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/personal_info_form_activity__et__fath_mname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/box"
+                android:hint="@string/global__mname"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__fath_lname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__lname"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/personal_info_form_activity__et__fath_lname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/box"
+                android:hint="@string/global__lname"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/global__dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/global__dob"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/personal_info_form_activity__et__dob"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/box"
+                    android:hint="dd-mm-yyyy"
+                    android:inputType="date"
+                    android:paddingStart="5dp"
+                    android:textSize="14sp" />
+
+                <ImageButton
+                    android:id="@+id/personal_info_form_activity__ib__calander"
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:src="@drawable/ic_date_range_black_24dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__community"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__community"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/personal_info_form_activity__sp__community"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="234dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/box"
+                android:entries="@array/community"
+                android:theme="@style/Animation.AppCompat.DropDownUp" />
+
+            <TextView
+                android:id="@+id/global__aadhar_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__aadhar_no"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/personal_info_form__et_aadhar"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/box"
+                android:hint="@string/global__aadhar_no"
+                android:inputType="text"
+                android:maxLength="12"
+                android:paddingStart="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__postal_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/postal_address_page_4"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__hno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__hno" />
+
+            <EditText
+                android:id="@+id/personal_info_form_activity__et__hno"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/box"
+                android:hint="@string/global__hno"
+                android:inputType="textImeMultiLine"
+                android:paddingStart="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__area"
+
+                />
+
+            <EditText
+                android:id="@+id/personal_info_form_activity__et__area"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/box"
+                android:hint="@string/global__area"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__district"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__district"
+
+                />
+
+            <EditText
+                android:id="@+id/personal_info_form_activity__et__district"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/box"
+                android:hint="@string/global__district"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__state" />
+
+            <Spinner
+                android:id="@+id/personal_info_form_activity__sp__state"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/box"
+                android:entries="@array/states"
+                android:theme="@style/Animation.AppCompat.DropDownUp">
+
+            </Spinner>
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__zip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__postal_code" />
+
+            <EditText
+                android:id="@+id/personal_info_form_activity__et__zip"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/box"
+                android:inputType="numberSigned"
+                android:paddingStart="5dp"
+                android:textSize="14sp">
+            </EditText>
+
+
+            <TextView
+                android:id="@+id/page_4_phn_nozz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__phone_no"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__phone_noedit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/box"
+                android:gravity="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/global__email"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/personal_info_form_activity__tv__email_noedit"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="05dp"
+                android:background="@drawable/box"
+                android:gravity="center"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/personal_info_form_activity__cb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/personal_info_form_activity__cb"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:textSize="12sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/page_4_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="0dp"
+                    android:background="@drawable/button_shape"
+                    android:text="@string/global__back" />
+
+                <Button
+                    android:id="@+id/personal_info_form__btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="120dp"
+                    android:background="@drawable/button_shape"
+                    android:text="@string/global__next"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

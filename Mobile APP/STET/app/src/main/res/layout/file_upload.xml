@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/page_7_image"
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/stet_logo">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/page_7_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/global__stet_title"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="0dp">
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="310dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/page_7_progress_bar"
+                    android:progress="@android:integer/config_mediumAnimTime"
+                    android:layout_marginTop="10dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/page_7_upload_documents"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="@string/page_7_upload"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:id="@+id/page_7_photo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/page_7_photo"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/page_7_select_photo"
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:layout_marginStart="15dp"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:background="@drawable/box"
+                            android:text="@string/page_7_choose"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/page_7_or_1"
+                            android:text="@string/page_7_or"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+
+                        <Button
+                            android:layout_width="60dp"
+                            android:layout_height="30dp"
+                            android:text="@string/page_7_take"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:background="@drawable/box"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:id="@+id/page_7_photo_cam"
+                            android:textSize="13sp"
+                            />
+
+                        <ImageView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/stet_logo"
+                            android:visibility="invisible"
+                            android:id="@+id/image_photo" />
+
+                        <ImageButton
+                            android:id="@+id/cancel_photo"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:visibility="invisible"
+                            android:src="@drawable/cancel" />
+
+                        <Button
+                            android:id="@+id/page_7_photo_upload"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="@string/page_7_upl"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:layout_marginStart="30dp"
+                            android:textSize="13sp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/button_shape"
+                            />
+
+
+
+                        </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:id="@+id/global__birth_cert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/global__birth_cert"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/page_7_select_birth"
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="15dp"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:background="@drawable/box"
+                            android:text="@string/page_7_choose"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/page_7_or_2"
+                            android:text="@string/page_7_or"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+
+                        <Button
+                            android:layout_width="60dp"
+                            android:layout_height="30dp"
+                            android:text="@string/page_7_take"
+                            android:id="@+id/page_7_birth_cert_cam"
+                            android:textSize="13sp"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:layout_marginStart="0dp"
+                            android:background="@drawable/box" />
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/stet_logo"
+                            android:visibility="invisible"
+                            android:id="@+id/image_birth" />
+
+                        <ImageButton
+                            android:id="@+id/cancel_birth"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:visibility="invisible"
+                            android:src="@drawable/cancel" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:id="@+id/page_7_birth_cert_upload"
+                            android:text="@string/page_7_upl"
+                            android:layout_marginStart="30dp"
+                            android:textSize="13sp"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/button_shape"
+                            />
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:id="@+id/page_7_community"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/global__community_certificate"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="18sp" />
+
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/page_7_select_community"
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:background="@drawable/box"
+                            android:text="@string/page_7_choose"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/page_7_or_3"
+                            android:text="@string/page_7_or"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+
+                        <Button
+                            android:layout_width="60dp"
+                            android:layout_height="30dp"
+                            android:text="@string/page_7_take"
+                            android:id="@+id/page_7_community_cam"
+                            android:textSize="13dp"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:layout_marginLeft="0dp"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:background="@drawable/box" />
+
+                        <ImageView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/stet_logo"
+                            android:visibility="invisible"
+                            android:id="@+id/image_community" />
+
+                        <ImageButton
+                            android:id="@+id/cancel_community"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:visibility="invisible"
+                            android:src="@drawable/cancel" />
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="@string/page_7_upl"
+                            android:id="@+id/page_7_community_upload"
+                            android:layout_marginLeft="30dp"
+                            android:textSize="13sp"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/button_shape"
+                            />
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+
+
+                    <TextView
+                        android:id="@+id/global__signature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/global__signature"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/page_7_select_signature"
+                            android:layout_width="70dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="15dp"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:background="@drawable/box"
+                            android:text="@string/page_7_choose"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/page_7_or"
+                            android:id="@+id/page_7_or_4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+
+                        <Button
+                            android:layout_width="60dp"
+                            android:layout_height="30dp"
+                            android:text="@string/page_7_take"
+                            android:id="@+id/page_7_signature_cam"
+                            android:textSize="13sp"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:layout_marginStart="0dp"
+                            android:background="@drawable/box" />
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/stet_logo"
+                            android:visibility="invisible"
+                            android:id="@+id/image_signature" />
+
+                        <ImageButton
+                            android:id="@+id/cancel_signature"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:visibility="invisible"
+                            android:src="@drawable/cancel" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="@string/page_7_upl"
+                            android:id="@+id/page_7_signature_upload"
+                            android:layout_marginStart="30dp"
+                            android:textSize="13sp"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/button_shape"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/page_7_aadhar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/global__aadhar_no"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18sp" />
+
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/page_7_select_aadhar"
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="15dp"
+                                android:textColor="@android:color/holo_blue_bright"
+                                android:background="@drawable/box"
+                                android:text="@string/page_7_choose"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/page_7_or"
+                                android:id="@+id/page_7_or6"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"/>
+
+                            <Button
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="@string/page_7_take"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:id="@+id/page_7_aadhar_cam"
+                                android:textSize="13sp"
+                                android:textColor="@android:color/holo_blue_bright"
+                                android:layout_marginStart="0dp"
+                                android:background="@drawable/box" />
+
+                            <ImageView
+                                android:layout_marginStart="10dp"
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:visibility="invisible"
+                                android:src="@drawable/stet_logo"
+                                android:id="@+id/image_aadhar" />
+
+                            <ImageButton
+                                android:id="@+id/cancel_aadhar"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:visibility="invisible"
+                                android:src="@drawable/cancel" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="20dp">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:text="@string/page_7_upl"
+                                android:id="@+id/page_7_aadhar_upload"
+                                android:layout_marginStart="10dp"
+                                android:textSize="13sp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/button_shape"
+                                />
+
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp">
+
+
+                    <TextView
+                        android:id="@+id/global__10th_marksheet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/global__10th_marksheet"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18sp" />
+
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/page_7_select_10th"
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="15dp"
+                                android:textColor="@android:color/holo_blue_bright"
+                                android:background="@drawable/box"
+                                android:text="@string/page_7_choose"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/page_7_or"
+                                android:id="@+id/page_7_or_7"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"/>
+
+
+                            <Button
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="@string/page_7_take"
+                                android:id="@+id/page_7_10th_cam"
+                                android:textSize="13sp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:textColor="@android:color/holo_blue_bright"
+                                android:layout_marginStart="0dp"
+                                android:background="@drawable/box" />
+
+                            <ImageView
+                                android:layout_marginStart="10dp"
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:visibility="invisible"
+                                android:src="@drawable/stet_logo"
+                                android:id="@+id/image_10th" />
+
+                            <ImageButton
+                                android:id="@+id/cancel_10th"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:visibility="invisible"
+                                android:src="@drawable/cancel" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="20dp">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:text="@string/page_7_upl"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:id="@+id/page_7_10th_upload"
+                                android:layout_marginStart="10dp"
+                                android:textSize="13sp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/button_shape"
+                                />
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp">
+
+
+
+                    <TextView
+                        android:id="@+id/global__12th_marksheet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/global__12th_marksheet"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18sp" />
+
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/page_7_select_12th"
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="15dp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:textColor="@android:color/holo_blue_bright"
+                                android:background="@drawable/box"
+                                android:text="@string/page_7_choose"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/page_7_or"
+                                android:id="@+id/page_7_or_8"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"/>
+
+                            <Button
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="@string/page_7_take"
+                                android:id="@+id/page_7_12th_cam"
+                                android:textSize="13sp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:textColor="@android:color/holo_blue_bright"
+                                android:layout_marginStart="0dp"
+                                android:background="@drawable/box" />
+
+                            <ImageView
+                                android:layout_marginStart="10dp"
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/stet_logo"
+                                android:visibility="invisible"
+                                android:id="@+id/image_12th" />
+
+                            <ImageButton
+                                android:id="@+id/cancel_12th"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:visibility="invisible"
+                                android:src="@drawable/cancel" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="20dp">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:text="@string/page_7_upl"
+                                android:id="@+id/page_7_12th_upload"
+                                android:layout_marginStart="10dp"
+                                android:textSize="13sp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/button_shape"
+                                />
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp">
+
+
+                    <TextView
+                        android:id="@+id/page_7_graduationM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/global__bed_cert"
+                        android:textSize="18sp" />
+
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/page_7_select_graduationM"
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="15dp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:textColor="@android:color/holo_blue_bright"
+                                android:background="@drawable/box"
+                                android:text="@string/page_7_choose"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/page_7_or"
+                                android:id="@+id/page_7_or_9"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"/>
+
+                            <Button
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="@string/page_7_take"
+                                android:id="@+id/page_7_graduationM_cam"
+                                android:textSize="13sp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:textColor="@android:color/holo_blue_bright"
+                                android:layout_marginStart="0dp"
+                                android:background="@drawable/box" />
+
+                            <ImageView
+                                android:layout_marginStart="10dp"
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/stet_logo"
+                                android:visibility="invisible"
+                                android:id="@+id/image_gradm" />
+
+                            <ImageButton
+                                android:id="@+id/cancel_gradm"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:visibility="invisible"
+                                android:src="@drawable/cancel" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="20dp">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:text="@string/page_7_upl"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:id="@+id/page_7_Bed_cert_upload"
+                                android:layout_marginStart="10dp"
+                                android:textSize="13dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/button_shape"
+                                />
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp">
+
+
+                    <TextView
+                        android:id="@+id/global__ba_bsc_cert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/global__ba_bsc_cert"
+                        android:textSize="18sp" />
+
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/page_7_select_graduationC"
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="15dp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:textColor="@android:color/holo_blue_bright"
+                                android:background="@drawable/box"
+                                android:text="@string/page_7_choose"
+                                android:textSize="13dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/page_7_or"
+                                android:id="@+id/page_7_or_10"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"/>
+
+                            <Button
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:text="@string/page_7_take"
+                                android:id="@+id/page_7_graduation_cert_cam"
+                                android:textSize="13dp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:textColor="@android:color/holo_blue_bright"
+                                android:layout_marginLeft="0dp"
+                                android:background="@drawable/box" />
+
+                            <ImageView
+                                android:layout_marginStart="10dp"
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:visibility="invisible"
+                                android:src="@drawable/stet_logo"
+                                android:id="@+id/image_gradc" />
+
+                            <ImageButton
+                                android:id="@+id/cancel_gradc"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:visibility="invisible"
+                                android:src="@drawable/cancel" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="20dp">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:text="@string/page_7_upl"
+                                android:id="@+id/page_7_BScBA_cert_upload"
+                                android:layout_marginStart="10dp"
+                                android:textSize="13sp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/button_shape"
+                                />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/page_7_checkbox"
+                    android:text="@string/page_7_checkbox2"
+                    android:textSize="10sp"
+
+                    />
+
+                <LinearLayout
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <Button
+                        android:layout_marginStart="0dp"
+                        android:id="@+id/page_7_back"
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/button_shape"
+                        android:textSize="17sp"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:text="@string/global__back" />
+
+                    <Button
+                        android:layout_marginStart="100dp"
+                        android:layout_width="70dp"
+                        android:id="@+id/page_7_next"
+                        android:background="@drawable/button_shape"
+                        android:text="@string/global__next"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:textSize="17sp"
+                        android:layout_height="40dp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

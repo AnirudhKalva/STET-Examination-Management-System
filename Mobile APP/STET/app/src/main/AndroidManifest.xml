@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stet">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/sih"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/sih"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".ProfessionalInfoFormActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ExamRegisterClickActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".PersonalInfoFormActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SignupOTPVerificationActivity"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".PaymentActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".FIleUploadActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".FinalRegistrationActivity"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Register"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Status"
+            android:label="@string/app_name" />
+
+
+        <activity
+            android:name=".Help"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".FAQS"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".Timeline" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".Forget" />
+        <activity android:name="Home1" />
+        <activity android:name=".SixthActivity" />
+        <activity android:name="ExamPatternActivity" />
+        <activity android:name="DownloadAdmitcardActivity" />
+        <activity android:name="FourthActivity" />
+        <activity android:name=".FifthActivity" />
+        <activity android:name=".NinthActivity" />
+        <activity android:name=".ChatBot" />
+
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_AxRDGA0FR61SiA">
+
+        </meta-data>
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@android:drawable/ic_notification_clear_all" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/app_firebase_channel_id" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

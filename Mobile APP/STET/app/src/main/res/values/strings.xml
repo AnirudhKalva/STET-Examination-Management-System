@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="textView_id">
+
+        <item> Hindi_text</item>
+        <item> English_text</item>
+
+    </string-array>
+    <string name="my_app_id">my_app-cfjpb</string>
+    <string-array name="community">
+        <item>Select</item>
+        <item>General</item>
+        <item>OBC</item>
+        <item>SC</item>
+        <item>ST</item>
+    </string-array>
+    <string-array name="application_category">
+        <item>Select</item>
+        <item>Primary Teacher</item>
+        <item>Trained Graduate Teacher</item>
+    </string-array>
+    <string-array name="language_choice">
+        <item>Select</item>
+        <item>Telugu</item>
+        <item>Hindi</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="language">
+        <item>ENGLISH</item>
+        <item>हिन्दी</item>
+    </string-array>
+    <string-array name="min_qualification">
+        <item>Select</item>
+        <item>XII</item>
+        <item>Graduation</item>
+    </string-array>
+    <string-array name="prof_qualification">
+        <item>Select</item>
+        <item>BA B.Ed</item>
+        <item>BSc B.Ed</item>
+    </string-array>
+    <string-array name="states">
+        <item>Select</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu And Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerela</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Telangana</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string name="app_name" translatable="false">STET</string>
+    <string name="app_firebase_channel_id" translatable="false">default_channel</string>
+    <string name="api_url" translatable="false">https://project-stet.herokuapp.com/</string>
+    <string name="application_no">Application Number</string>
+    <string name="enter_application_no">Enter Application Number</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="todo">Todo</string>
+    <string name="enter_text_shown_in_image">Enter the text shown in the image</string>
+    <string name="global__signin">Sign In</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="forget_application_no">Forgot Application Number</string>
+    <string name="global__stet_title">Teacher Eligibility Test-2021</string>
+    <string name="homepage_about">About Telangana TET</string>
+    <string name="homepage_content">Contents</string>
+    <string name="homepage_about_content">Telangana Teacher Eligibility Test is one of the prestigious teaching examination of the state Telangana. Each year, several candidates appear for this exam, and only a few candidates are able to qualify the exam.</string>
+    <string name="homepage_overview">Overview of Telangana TET</string>
+    <string name="homepage_admitCard">Telangana TET-2021 Admit Card</string>
+    <string name="homepage_admitCard_content">After the application process is over, candidates can download their Telangana TET admit card 2021. Once the official notification of admit card is released, candidates are advised to visit this page</string>
+    <string name="homepage_examPattern">Telangana TET-2021 Exam Pattern</string>
+    <string name="homepage_syllabus">Telangana TET-2021 Syllabus</string>
+    <string name="homepage_prepare">How to prepare for Telangana TET-2021?</string>
+    <string name="homepage_applicationForm">Telangana TET-2021 Application Form</string>
+    <string name="homepage_eligibilityCriteria">Telangana TET-2021 Eligibility Criteria</string>
+    <string name="homepage_timeline">Telangana TET-2021 Timeline</string>
+    <string name="homepage_clickhere">CLICK HERE</string>
+    <string name="homepage_apply">To Check Your Profile</string>
+    <string name="examPattern">An applicant who intends to participate in both the categories (Primary and Graduate) will have to apply and sit in both the papers separately and pay the fee for both the tests. Both Level I and Level II (i.e. for Primary and Graduate teacher) are conducted on the same day. </string>
+    <string name="examPattern_1">Exam Mode:</string>
+    <string name="examPattern_3">Exam Type:</string>
+    <string name="examPattern_4">Objective type (MCQs)</string>
+    <string name="examPattern_5">Total no. of questions:</string>
+    <string name="examPattern_6">150</string>
+    <string name="examPattern_7">Marking Scheme:</string>
+    <string name="examPattern_8">1 mark for each correct answer</string>
+    <string name="examPattern_9">Negative Marking:</string>
+    <string name="examPattern_10">There will be no negative marking</string>
+    <string name="examPattern_11">Exam Duration:</string>
+    <string name="examPattern_12">2.30 hours</string>
+    <string name="examPattern_13">Exam Time:</string>
+    <string name="examPattern_14">10:00 am to 03:30 pm</string>
+    <string name="prepare_content1">Telangana Teacher Eligibility Test is one of the prestigious teaching examination of the state Telangana. Each year, several candidates appear for this exam, and only a few candidates are able to qualify the exam. It will be helpful for those candidates who are appearing for the exam to refer to the preparation strategies of TET qualified candidates. Customize their strategies as per the requirement and start the preparation of the exam.</string>
+    <string name="prepare_content2">Time management during the preparation of STET exam is crucial. It is necessary to manage time between studying and revision. Each section of syllabus must get enough time to practise. Also, it becomes vital to revise topics with previous year papers to keep them fresh in mind.</string>
+    <string name="prepare_content3">Along with hard work, smart work is also crucial for the STET preparation. It becomes necessary to identify the important topics for the exam. Practise STET previous year question papers and note down the important topics and frequently asked questions of the exam. Candidates can also start their preparation with these important section and questions.</string>
+    <string name="application_form_content1">Before filling the application form, candidates must keep the following things ready:</string>
+    <string name="application_form_content2">Receipt of payment</string>
+    <string name="application_form_content3">Scanned or digital photograph</string>
+    <string name="application_form_content4">Scanned signature of the candidate</string>
+    <string name="application_form_content5">Working e-mail and mobile number</string>
+    <string name="application_form_content6">Application Fee</string>
+    <string name="application_form_content7">Candidates have to pay Rs.400/- as application fee.</string>
+    <string name="application_form_content8">Application fee can only be submitted online.</string>
+    <string name="eligibility_criteria_content1">Candidates who are fulfilling the Eligibility Criteria set by officials will be able to sit for the Exam, others will be rejected at the time of scrutiny of documents. Here we have mentioned the eligibility criteria for STET Telangana Exam 2021.</string>
+    <string name="eligibility_criteria_content2">12th or its equivalent with a minimum of 50% marks in aggregate for unreserved candidates and 45 % in case of SC, ST, OBC (Central), OBC (State) and passed the final year of 2 years of D. El. Ed . OR</string>
+    <string name="eligibility_criteria_content3">12th or its equivalent with a minimum of 50% marks in aggregate for unreserved candidates and 45 % in case of SC, ST, OBC(Central), OBC(State) and passed in the final year of 4 years B. Ed. OR</string>
+    <string name="eligibility_criteria_content4">12th or its equivalent with a minimum of 50% marks in aggregate and 45 % in case of SC, ST, OBC (Central), OBC(State) and passed in final year of 2 years Diploma in Education ( Special Education).</string>
+    <string name="eligibility_criteria_content5">B.A./B.Sc. with 50% in aggregate marks for unreserved candidates and 45 % in case of SC, ST, OBC(Central), OBC (State). With this, candidates must have passed the final year of 2 years Diploma in Elementary Education (D. El. Ed.). OR</string>
+    <string name="eligibility_criteria_content6">B.A./B.Sc. with 50 % marks in aggregate for unreserved candidates and 45 % in case of SC, ST, OBC(Central),OBC(State) and passed in final year of 1/ 2 year Bachelor in Education (B. Ed.). OR</string>
+    <string name="eligibility_criteria_content7">12th or its equivalent with a minimum of 50% marks in aggregate for unreserved candidates and 45 % for SC, ST, OBC (Central), OBC (State) and have passed in the final year of 2 years in Diploma in Elementary Education ( D. El. Ed), OR</string>
+    <string name="eligibility_criteria_content8">12th or its equivalent with a minimum 0f 50% marks for unreserved category and 45% marks in case of Sc, ST, OBC (Central), OBc (State) and passed or appearing in final year of 04 years B. A.Ed/B.Sc.Ed or B.A/B.Sc.Ed</string>
+    <string name="eligibility_criteria_content9">Minimum Educational Qualification for Primary Teacher (Classes I- V: Primary Stage)</string>
+    <string name="eligibility_criteria_content10">Minimum Educational qualification for Graduate Teacher for (Classes VI-VIII: Elementary Stage)</string>
+    <string name="syllabus_content1">Telangana TET syllabus 2021 is provided below, the candidates should prepare according to the syllabus to qualify for Telangana TET exam. Detailed knowledge of Syllabus is mandatory for each candidate to prepare for STET Telangana 2021 Exam.</string>
+    <string name="syllabus_content2">Concept of development and its relationship with learning, Principles of the development of children, Socialization processes: Social world and children (Teachers, parents, peers.)Piaget, Kohlberg and Vygotsky: constructs and critical perspectives, Gross and fine motor development skills in infancy and preschool children. Development of speech and language.Gender as a social construct; gender roles, gender- bias and educational practice, Individual differences among learners, understanding differences based on diversity of language, caste, gender, community, religion etc.</string>
+    <string name="syllabus_content3">Reading unseen passages- two passages one prose (maybe from literary, scientific, narrative or discursive ) or drama and poem with questions on comprehension, inference, grammar and verbal ability</string>
+    <string name="syllabus_content4">Learning and Acquisition, Teaching Role of listening and speaking; function of language and how children use it as a tool critical perspective on the role of grammar in learning a language for communicating ideas verbally and in written form; Principles of language, Remedial Teaching, Challenges of teaching language in a diverse classroom; language difficulties, errors and disorders language, Skills Evaluating language comprehension and proficiency: speaking, listening, reading and writing teaching-learning materials: Textbook, multimedia materials, multilingual resource of the classroom</string>
+    <string name="syllabus_content5">Decimals and Fractions, Algebraic Expressions and Identities, Factorizations, Rational Numbers, Exponents and Powers, Addition and Subtraction, Operation on Numbers, Ratio and proportion, Measurement, Comparing Quantities, Direct and Inverse Variations, Geometry</string>
+    <string name="syllabus_content6">Refer NCERT Textbooks of class I to V</string>
+    <string name="syllabus_content7">Algebra.Compound Interest Discount.Ratio and Proportion.Introduction to Algebra; Algebraic identities, polynomials. Basic geometrical ideas, Knowing our Numbers, Negative Numbers and Integers, Geometry. Number System, Playing with Numbers, Whole Numbers. Cube root Profit and Loss, Fractions Exponents; surds, squares, cube, square root, Symmetry: (reflection), Understanding Elementary Shapes, Quadrilateral, Constructions (using Straight edge Scale, protractor, compasses).Data handling, statistics, Mensurations; circle, sphere, cone, cylinder, triangles</string>
+    <string name="syllabus_content8">Food: Sources and ComponentsNutrition in Plants and AnimalsLight, Shadows and ReflectionElectric Current and its effectsSoundMicroorganism : Friend and FoePollution of Air and WaterPhysical and Chemical changesFibre to Fabric</string>
+    <string name="syllabus_content9">From Gathering to Growing Food, Rulers, Buildings, Monuments, India after Independence</string>
+    <string name="syllabus_content10">Motions of the Earth, Life in the Temperate Grassland, Mineral and Power Resources.</string>
+    <string name="syllabus_content11">Diversity and Discrimination, Understanding Media, Understanding Marginalisation</string>
+    <string name="page_1_register">Register</string>
+    <string name="global__phone_no">Phone no</string>
+    <string name="page_1_password">Password</string>
+    <string name="page_1_login">Login</string>
+    <string name="page_1_signup">Sign up</string>
+    <string name="page_1_name">Name</string>
+    <string name="global__email">Email</string>
+    <string name="page_1_phn">Phone No.</string>
+    <string name="global__next">Next</string>
+    <string name="page_2_phn">Verify Phone No. :</string>
+    <string name="global__send_otp">Send OTP</string>
+    <string name="global__enter_otp">Enter OTP</string>
+    <string name="global__verify">Verify</string>
+    <string name="page_2_email">Verify Email Id :</string>
+    <string name="page_2_skip">Skip</string>
+    <string name="page_3_text_view1">SIKKIM TEACHER ELIGIBILITY TEST 2021</string>
+    <string name="page_3_text_view_new_candidate">NEW CANDIDATE REGISTRTION</string>
+    <string name="global__register_now">REGISTER NOW</string>
+    <string name="page_3_registered_candidate">REGISTERED CANDIDATE LOGIN</string>
+    <string name="tv__personal_info_form_activity__title">STET 2021 APPLICATION FORM</string>
+    <string name="global__gender">Gender</string>
+    <string name="selectgender">Please Select Gender</string>
+    <string name="page_4_mother_name">Mother\'s Name :</string>
+    <string name="personal_info_form_activity__tv__fath_hus_name">Father Name :</string>
+    <string name="global__select">select</string>
+    <string name="global__community">Community</string>
+    <string name="global__aadhar_no">Aadhar No</string>
+    <string name="global__aadhar_card">Aadhar Card</string>
+    <string name="global__postal_code">Postal Code</string>
+    <string name="page_5_details">QUALIFICATION DETAILS</string>
+    <string name="global__application_category">Job Application Category</string>
+    <string name="global__exam_language">Exam Language</string>
+    <string name="page_5_min_qualification">Minimum Qualification</string>
+    <string name="global__tenth_percentage">Tenth Percentage </string>
+    <string name="global__twelfth_percentage">Twelfth Percentage </string>
+    <string name="global__bse_ba_percentage">B.Sc/B.A Percentage </string>
+    <string name="global__bed_percentage">B.Ed Percentage </string>
+    <string name="global__prof_qualification">Professional Qualification</string>
+    <string name="global__university">University</string>
+    <string name="global__back">Back</string>
+    <string name="page_6_pay">Pay</string>
+    <string name="page_7_choose">Choose</string>
+    <string name="page_7_take">Take</string>
+    <string name="global__10th_marksheet">10th Marksheet</string>
+    <string name="page_7_upl">Upload</string>
+    <string name="global__12th_marksheet">12th Marksheet</string>
+    <string name="global__ba_bsc_cert">BA/BSc Certificate</string>
+    <string name="global__bed_cert">B.Ed Certificate</string>
+    <string name="global__birth_cert">Birth Certificate</string>
+    <string name="global__subject_cert">Telangana Subject Certificate</string>
+    <string name="global__community_certificate">Community Certificate</string>
+    <string name="global__signature">Signature</string>
+    <string name="page_7_photo">Passport Size Photo</string>
+    <string name="page_7_checkbox">I have read all terms and conditions.................</string>
+    <string name="global__submit">Submit</string>
+    <string name="page_9_textView_1">ONLY REGISTERED CANDIDATE SIGN-IN</string>
+    <string name="page_9_security_pin">Security Pin</string>
+    <string name="global__name">Name</string>
+    <string name="global__password">Password</string>
+    <string name="page_2_phnVerification">Phone Number Verification</string>
+    <string name="page_2_emailSendLink">Send Link</string>
+    <string name="page_2_verifyEmail">Email ID Verification</string>
+    <string name="page_2_aadharVerification">Aadhaar Verification</string>
+    <string name="page_3_newCandidateReg">Exam Registration for 2021</string>
+    <string name="global__male">Male</string>
+    <string name="global__female">Female</string>
+    <string name="personal_info_form_activity__rb__others">Other</string>
+    <string name="page_4_fatN">Father Name:</string>
+    <string name="personal_info_form_activity__tv__fath_or_hus">Father/Husband:</string>
+    <string name="global__dob">Date Of Birth</string>
+    <string name="page_4_ddmmyy">dd-mm-yyyy</string>
+    <string name="global__address">Address</string>
+    <string name="global__district">District</string>
+    <string name="global__state">State</string>
+    <string name="personal_info_form_activity__cb">I have read and understood all the instructions.</string>
+    <string name="page_5_aca_info">Academic Information</string>
+    <string name="page_6_payment">Payment</string>
+    <string name="page_7_upload">Upload Files</string>
+    <string name="page_7_or">OR</string>
+    <string name="page_7_checkbox2">The certificates i have uploaded is correct according to my knowledge.</string>
+    <string name="global__final_registration">Final Registration</string>
+    <string name="status_print">Print this page</string>
+    <string name="status_reg_number">Registration No.</string>
+    <string name="global__status">Status</string>
+    <string name="status_can">Candidate Name</string>
+    <string name="status_fh">Father/Husband</string>
+    <string name="global__father_name">Father Name</string>
+    <string name="status_mob">Mobile No.</string>
+    <string name="global__hno">House No.</string>
+    <string name="global__area">Area</string>
+    <string name="status_aca_info">Academic Info</string>
+    <string name="status_scanned_pht">Scanned Photos</string>
+    <string name="status_pht">Photo</string>
+    <string name="status_fee_detail">Fee Payment Details</string>
+    <string name="status_pay_mode">Payment Mode</string>
+    <string name="status_transection">Transaction ID</string>
+    <string name="status_exam_date">Exam Date</string>
+    <string name="status_date_tran">Date of Transaction</string>
+    <string name="status_pay_detail">Fee Payment Detail</string>
+    <string name="status_para">I hereby solemnly affirm that all the particulars stated by me in this Application are true and correct. I have not concealed any information. However, if any information furnished herein is fraudulent, incorrect or untrue, I understand that I am liable to criminal prosecution and I also agree to forego my admission. Further that the selection and admission to the course is liable to be cancelled at any time during the entire degree program. I agree to abide by the rules and regulations governing the examination as contained in the Information Bulletin, which I have duly studied and understood thoroughly.</string>
+    <string name="status_uploaded_docs">List Of Documents Uploaded</string>
+    <string name="status_docs">Documents</string>
+    <string name="status_up_or_not">Uploaded or not</string>
+    <string name="status_na">NA</string>
+    <string name="timeline_title">Full Program Timeline</string>
+    <string name="timeline_app_announced">Application Announced</string>
+    <string name="timeline_date1"></string>
+    <string name="timeline_data1">Announcement of the STET Examination for the year 2021</string>
+    <string name="timeline_regStarts">Registration starts</string>
+    <string name="timeline_date_2"></string>
+    <string name="timeline_data2">Starting date of the registration of STET exam year 2021</string>
+    <string name="timeline_lastSubmission">Last date of submission</string>
+    <string name="timeline_date3"></string>
+    <string name="timeline_data3">Last date to fill the form of STET examination year 2021</string>
+    <string name="timeline_dateOfAdmitC">Date of admit card</string>
+    <string name="timeline_date4"></string>
+    <string name="timeline_data4">Date of generation of Admit Card for the year 2021</string>
+    <string name="timeline_examdate">Exam Date</string>
+    <string name="timeline_date5"></string>
+    <string name="timeline_data5">Date of examination for the year 2021</string>
+    <string name="timeline_result_date">Result Date</string>
+    <string name="timeline_date6"></string>
+    <string name="timeline_data6">Result date of examination for the year 2021</string>
+
+    <string name="password_reset">Password:</string>
+    <string name="show_password">SHOW PASSWORD</string>
+    <string name="edit_password">EDIT PASSWORD</string>
+    <string name="new_password">New Password :</string>
+    <string name="password_reset_edt">Password</string>
+    <string name="confirm_password">Confirm Password :</string>
+    <string name="password_reset_confirm">Password</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="update_personal_detail">Update Personal Detail</string>
+    <string name="update_professional_detail">Update Professional Detail</string>
+    <string name="update_payment_detail">Update Payment Detail</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password_bt">Forgot</string>
+    <string name="enter_phone_no_to_retreive_and_reset_password">Enter registered phone number to reset password</string>
+    <string name="global__personal_info">Personal Info</string>
+    <string name="personal_info_form_activity__tv__cand_name">Candidate Name</string>
+    <string name="global__fname">First Name</string>
+    <string name="global__mname">Middle Name</string>
+    <string name="global__lname">Last Name</string>
+    <string name="personal_info_form_activity__rb__fath">Father</string>
+    <string name="personal_info_form_activity__rb__hus">Husband</string>
+    <string name="candidate_father_s_husband_s_name_page_4">Father Name</string>
+    <string name="postal_address_page_4">Postal Address</string>\>
+    <string name="stet_official_site">STET OFFICIAL SITE</string>
+    <string name="help">HELP</string>
+    <string name="contact_number_987654321">Contact Number : 987654321</string>
+    <string name="email_id_stet_gmail_com">Email-id : stet@gmail.com</string>
+    <string name="website_stet_co_in">Website : stet.co.in</string>
+    <string name="faqs_about_stet">FAQS About STET</string>
+    <string name="question_1">Question 1 ?</string>
+    <string name="answer_1">Answer 1</string>
+    <string name="question_2">Question 2 ?</string>
+    <string name="answer_2">Answer 2</string>
+    <string name="question_3">Question 3 ?</string>
+    <string name="answer_3">Answer 3</string>
+    <string name="question_4">Question 4 ?</string>
+    <string name="answer_4">Answer 4</string>
+    <string name="home_menu">HOME</string>
+    <string name="help_menu">HELP</string>
+    <string name="faqs_menu">FAQs</string>
+    <string name="chat_bot_menu">CHAT BOT</string>
+    <string name="timeline_menu">TIMELINE</string>
+    <string name="logout_menu">LOGOUT</string>
+    <string name="homepage_faq">Telangana TET 2021 FAQs</string>
+    <string name="faqs">FAQs</string>
+    <string name="q1">Is there any Negative Marking in STET Telangana 2021 Exam?</string>
+    <string name="a1">There will be no penalty for wrong answers in STET.</string>
+    <string name="q2">Does STET Telangana 2021 Exam will be conducted Online or Offline?</string>
+    <string name="a2">STET Telangana 2021 Exam will be conducted online</string>
+    <string name="q3">Will I be able to take any breaks during the STET Telangana 2021 exam?</string>
+    <string name="a3">No, you will not be given any break during the STET Telangana 2021 exam.</string>
+    <string name="q4">How can I pay the Application Fee for STET Telangana Exam 2021?</string>
+    <string name="a4">Candidates have to pay Rs.400/-on account of Exam fee and it should be deposited in favour of Joint Director/ Examinations, HRDD from any bank or branches of IDBI Bank (IDBI Account Number:0108102000006767 branch: Gangtok).</string>
+    <string name="q5">Is there any Sectional Cut-off in STET Telangana 2021 Examination?</string>
+    <string name="a5">No, there is not any Sectional Cut-off in STET Telangana 2021 Examination.</string>
+    <string name="download">DOWNLOAD ADMITCARD</string>
+    <string name="online">Online</string>
+    <string name="uploaded">UPLOADED</string>
+    <string name="admit_card">ADMIT CARD</string>
+    <string name="change_language">CHANGE LANGUAGE</string>
+    <string name="verifyingcredentials">\"Verifying Credentials :) \"</string>
+    <string name="loginsuccessfully">Login Successfully</string>
+    <string name="toastwrong">Wrong Credentials</string>
+    <string name="toastslowinternet">Slow Internet</string>
+    <string name="poorinternet">Poor Internet Try again</string>
+    <string name="checkerror">Check Error</string>
+    <string name="registrationsuccessfull">Registration Successfull</string>
+    <string name="currentyear">Current Year Not Found</string>
+    <string name="verificationsuccessfull">Verification Successful</string>
+    <string name="Verified">VERIFIED</string>
+    <string name="incorrectcode">\"Incorrect Verification Code \"</string>
+    <string name="global__resend_otp">RESEND OTP</string>
+    <string name="loadingprof">\"Loading Professional Details  :) \"</string>
+    <string name="update">UPDATE</string>
+    <string name="storingprof">\"Storing Professional Details  :) \"</string>
+    <string name="datastored">Data stored successfully</string>
+    <string name="accepttc"><![CDATA[Accept T&C]]></string>
+    <string name="validuniversity">Enter valid University format</string>
+    <string name="selectone">Select Atleast one</string>
+    <string name="verifying">Verifying</string>
+    <string name="otpsent">OTP sent</string>
+    <string name="loadingpers">\"Loading Personal Details  :) \"</string>
+    <string name="storingpers">\"Storing Personal Details  :) \"</string>
+    <string name="enterdob">Enter field in DOB Format</string>
+    <string name="validaddress">Enter valid address format</string>
+    <string name="validemail">Enter valid email address</string>
+    <string name="chooselang">Choose Language</string>
+    <string name="loading">\"Loading  :) \"</string>
+    <string name="allfour">Please update all four details</string>
+    <string name="empty">Empty Object</string>
+    <string name="phonenotfound">Phone Number Not Found</string>
+    <string name="passwordreset">Password reset is Successfull</string>
+    <string name="mustbesame">New Password and Confirm Password must be same</string>
+    <string name="phoneverify">\"Please Verify Phone \"</string>
+    <string name="emailverify">Please Verify Email</string>
+    <string name="registering">\"Registering :) \"</string>
+    <string name="signupsuccess">Signed up successfully</string>
+    <string name="alreadyregist">Already registered</string>
+    <string name="emailsent">Email sent</string>
+    <string name="emailnot">Email sent failed</string>
+    <string name="alreadyexist">Already exists</string>
+    <string name="emailverified">Email Verified</string>
+    <string name="verified">Verified</string>
+    <string name="emailnotverified">Email Not Verified</string>
+    <string name="authfailed">Authentication failed.</string>
+    <string name="phonesuccess">Phone Verifciation Success</string>
+    <string name="cantbeempty">Field can\'t be empty</string>
+    <string name="completephonenumber">Enter complete phone number</string>
+    <string name="failed">Failed</string>
+    <string name="aadharvalidate">Aadhar validation Complete</string>
+    <string name="otpgenerated">\"OTP Generated \"</string>
+    <string name="otpsentfailed">Failed to Send OTP</string>
+    <string name="fetchmob">Failed to Fetch Phone Number</string>
+    <string name="failedaadharvalid">Failed to Validate Aadhar</string>
+    <string name="aadharsuccess">Aadhar Verifciation Success</string>
+    <string name="aadharnotverified">\"Aadhar Not Verified \"</string>
+    <string name="logininagain">LOGIN IN AGAIN TO DOWNLOAD ADMIT CARD</string>
+    <string name="downloadadmit">Downloading Admitcard......</string>
+    <string name="admitsaved">File Saved in Downloads</string>
+    <string name="notgenerated">Admit card not generated</string>
+    <string name="permdenied">Oops you just denied the permission</string>
+    <string name="uploading">\"Uploading \"</string>
+    <string name="filesize">File size must be less than 100 kb</string>
+    <string name="removefile">Removing last</string>
+    <string name="fileremooved">file removed</string>
+    <string name="errorpayment">\"Error in payment: \"</string>
+    <string name="paymentstored">Payment Detailed Stored</string>
+    <string name="regisfile">File Saved to Downloads/RegistrationForm</string>
+    <string name="oopsfilenot">Oops! File could not be saved.</string>
+    <string name="Imagefetched">Image fetched</string>
+    <string name="pha">Phone number  already registered</string>
+    <string name="ema">Email-id already registered</string>
+    <string name="aaa">Aadhar number already registered</string>
+    <string name="submitaa">Already submitted registration form</string>
+    <string name="yearnot">Current Year Not Found</string>
+    <string name="digitonlu">digit Number Only</string>
+    <string name="enterupto">\"Enter upto \"</string>
+    <string name="validname">Enter only Alphabets  No Numbers  are allowed</string>
+    <string name="additional">Either Leave address two all field empty Or fill all field correctly</string>
+    <string name="validpass">Atleast one Uppercase one LowerCase one Special Character one Number</string>
+    <string name="update_documents_detail">Update Documents Detail</string>
+    <string name="logkro">Session Expired</string>
+
+
+</resources>

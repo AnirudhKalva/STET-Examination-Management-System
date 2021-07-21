@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>admit Card</title>
+    <style type="text/css">
+      .txt-center {
+        text-align: center;
+      }
+      .border- {
+        border: 1px solid #000 !important;
+      }
+      .padding {
+        padding: 15px;
+      }
+      .mar-bot {
+        margin-bottom: 15px;
+      }
+      .admit-card {
+        border: 2px solid #000;
+        padding: 15px;
+        margin: 20px 0;
+      }
+      .BoxA h5,
+      .BoxA p {
+        margin: 0;
+      }
+      h5 {
+        text-transform: uppercase;
+      }
+      table img {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .table-bordered td,
+      .table-bordered th,
+      .table thead th {
+        border: 1px solid #000000 !important;
+      }
+      @media print {
+        /*    body {
+        width: 21cm;
+        height: 29.7cm;
+        margin: 30mm 45mm 30mm 45mm; 
+    }
+*/
+        section {
+          margin: 0;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="admit-card">
+          <div class="BoxA border- padding mar-bot">
+            <div class="row">
+              <div class="col-sm-4">
+                <h5>Teacher Eligibility Test - TET</h5>
+                <p>
+                  <br />
+                  TELANGANA, INDIA
+                </p>
+              </div>
+              <div class="col-sm-4 txt-center">
+                <img src="<%= data.simg %>" width="100px;" />
+              </div>
+              <div class="col-sm-4">
+                <h5>Admit Card</h5>
+                <p>TET - 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="BoxC border- padding mar-bot">
+            <div class="row">
+              <div class="col-sm-6">
+                <h3>Enrollment No : <%= data.Eno %></h5>
+              </div>
+            </div>
+          </div>
+          <div class="BoxD border- padding mar-bot">
+            <div class="row">
+              <div class="col-sm-10">
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <b>Student Name: </b> <%= data.Fname %> <%= data.Mname %> <%= data.Lname %>
+                      </td>
+                      <td><b>Sex: </b><%= data.Gender %></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <b>Father Name: </b><%=data.FHFname %> <%=data.FHMname %> <%=data.FHLname %>
+                      </td>
+                      <td><b>DOB: </b><%= data.DOB %></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" style="height: 125px">
+                        <b>Address: </b><%= data.Address %>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-sm-2 txt-center">
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <img
+                        src="/image/<%= data.img %>"
+                        width="50mm"
+                        height="50mm"
+                      />
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="BoxE border- padding mar-bot txt-center">
+            <div class="row">
+              <div class="col-sm-12">
+                <h5>EXAMINATION VENUE</h5>
+                <p>
+                  <%= data.Venue %><br />
+                  INDIA
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="BoxF border- padding mar-bot txt-center">
+            <div class="row">
+              <div class="col-sm-12">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Subject/Paper</th>
+                      <th>Exam Date</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><%=data.Exam %></td>
+                      <td><%=data.Exam_date %></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

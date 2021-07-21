@@ -1,0 +1,26 @@
+{
+  "name": "stetandroid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node -r dotenv/config --optimize_for_size --max_old_space_size=460 --gc_interval=100 app.js"
+  },
+  "author": "Ritishek",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "event": "^1.0.0",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "gridfs-stream": "^1.1.1",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.3",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "path-parse": "^1.0.6"
+  }
+}

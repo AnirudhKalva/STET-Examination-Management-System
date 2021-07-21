@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "909969547421",
+    "project_id": "stet-a1121",
+    "storage_bucket": "stet-a1121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909969547421:android:3cb01bd502ba228932f474",
+        "android_client_info": {
+          "package_name": "com.example.stet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909969547421-u7f2q8kdn2978qaq9q7mj67oo1at1qtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8xdiHYnMaCBkrVlvHAtQh145iORqnjzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909969547421-u7f2q8kdn2978qaq9q7mj67oo1at1qtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
